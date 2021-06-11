@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.film-section{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 15px 1px rgb(197, 172, 172);
+    max-width: 1200px;
+    padding: 20px;
+}
+.film-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.film-header h1{
+    color: brown;
+}
+.film-header select{
+    padding: 9px;
+    border-color: brown;
+    color: rgb(173, 95, 95);
+    border-radius: 3px;
+}
+.film-header a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+.film-header a:hover{
+    color: tomato;
+    background-color: thistle;
+   
+}
+select option{
+    padding: 2px;
+}
+.film-header button{
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.film-list{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+    height: 800px;
+}
+.film-item{
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-right: 20px;
+    height: max-content;
+}
+.film-item .infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0 10px 0;
+}
+.film-item .infos h3{
+    color: brown;
+}
+.film-item  .infos p{
+    color: rgb(4, 73, 202);
+} 
+
+
+
+/* admin panel */
+
+#admin-section{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(23, 84, 158, 0.39);
+    height: 100vh;
+}
+#admin-section form{
+    margin-top: 10rem;
+    margin-left: -10rem;
+    display: grid;
+    justify-content: space-around;
+}
+#admin-section form input , #admin-section form #adminSelect{
+    padding: 7px; 
+    border-radius: 3px;
+    width: 200%;
+    border: none;
+}
+#admin-section form label{
+    font-size: 17px;
+    color: rgb(3, 3, 3);
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+#admin-section form button{
+    margin-top: 10px;
+    background-color: brown;
+    color: white;
+    padding: 7px; 
+    border-radius: 3px;
+    width: 200%;
+    border: none;
+}
+#admin-section  a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#admin-section  a:hover{
+    color: tomato;
+    background-color: thistle;
+   
+}

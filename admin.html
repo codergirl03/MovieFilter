@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <section id="admin-section">
+        <a href="./index.html" id="home">Home</a>
+        <form action="" id="addInfoForm">
+            <label for="iframe">Iframe of name:</label>
+            <input type="text" name="iframe" id="iframe" required placeholder="enter ifreme...">
+            <label for="filmName">Name of film:</label>
+            <input type="text" name="filmName" id="filmName" required placeholder="enter name of film...">
+            <label for="filmType">Type of film:</label>
+            <select id="adminSelect">
+                <option value="0">all movies</option>
+            </select>
+            <button>Add</button>
+          </form> 
+    </section>
+
+
+
+    <script src="./js/data.js"></script>
+    <script src="./js/admin.js"></script>
+</body>
+</html>
