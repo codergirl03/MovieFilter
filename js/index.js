@@ -1,27 +1,27 @@
-let datas = [
-    {
-        name:"Stiv Jobs",
-        type: 1,
-        link:'<iframe width="350" height="315" src="https://www.youtube.com/embed/M7CdqQEBDxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-    {
-        name:"How to find .. ",
-        type: 2,
-        link:'<iframe width="350" height="315" src="https://www.youtube.com/embed/VZTdl0J_4Nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-    {
-        name:"Avatar",
-        type: 3,
-        link:'<iframe width="350" height="315" src="https://www.youtube.com/embed/bi3cx8Y_m2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-    {
-        name:"Troya",
-        type: 4,
-        link:'<iframe width="350" height="315" src="https://www.youtube.com/embed/SU4MT0PD4C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    }
-]
+// let datas = [
+//     {
+//         name:"Stiv Jobs",
+//         type: 1,
+//         link:'<iframe width="350" height="315" src="https://www.youtube.com/embed/M7CdqQEBDxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+//     },
+//     {
+//         name:"How to find .. ",
+//         type: 2,
+//         link:'<iframe width="350" height="315" src="https://www.youtube.com/embed/VZTdl0J_4Nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+//     },
+//     {
+//         name:"Avatar",
+//         type: 3,
+//         link:'<iframe width="350" height="315" src="https://www.youtube.com/embed/bi3cx8Y_m2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+//     },
+//     {
+//         name:"Troya",
+//         type: 4,
+//         link:'<iframe width="350" height="315" src="https://www.youtube.com/embed/SU4MT0PD4C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+//     }
+// ]
 
-window.localStorage.setItem("database", JSON.stringify(datas))
+// window.localStorage.setItem("database", JSON.stringify(datas))
 
 // console.log(data);
 
