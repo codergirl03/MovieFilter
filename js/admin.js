@@ -27,6 +27,10 @@ form.onsubmit = function (event){
 
     data.push(obj);
     window.localStorage.setItem("database" , JSON.stringify(data))
+
+    filmNameSelect.value = null;
+    adminSelect.value = 1;
+    iframeSelect.value = null
 }
 
 console.log(data);
