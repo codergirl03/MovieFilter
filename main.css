@@ -55,6 +55,9 @@ select option{
     overflow-y: scroll;
     height: 800px;
 }
+.film-list iframe{
+    width: 350px !important;
+}
 .film-item{
     border: 1px solid rgb(0, 0, 0);
     margin-top: 20px;

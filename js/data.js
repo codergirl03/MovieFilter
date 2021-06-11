@@ -1,8 +1,8 @@
 let genres = [
-    { id: 1 , genre: "horror" },
-    { id: 2 , genre: "drama" },
-    { id: 3 , genre: "comedy" },
-    { id: 4 , genre: "sky-fi" },
+    { id: 1 , genre: "programming" },
+    { id: 2 , genre: "comedy" },
+    { id: 3 , genre: "horror" },
+    { id: 4 , genre: "drama"  },
 ]
 
 
